@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import './Textbox.css';
 const prompts = ["as you walk into the next room, you see shaylan and vaib standing over a bench",
-				"vaib is screaming about how excited he is about the TOTAL NUMBER OF MEMBERS IN CODEOLOGY this semester",
+				"vaib is screaming about how excited he is about the TOTAL NUMBER OF MEMBERS IN CODEOLOGY INCLUDING DUPLICATES this semester, but he wishes we had FOUR TIMES that amount",
 				"you have no idea what he's talking about and why that was highlighted",
-				"shaylan is out here tryna tell vaib he benches ----- for his 1 rep max",
+				"shaylan is out here tryna tell vaib he benches 11049 lbs for his 1 rep max",
 				"but that's turbo cap like how can a human being even lift that",
-				"you take a look around and you notice there's not even ---- in weights so wtf are they even talking about",
+				"you take a look around and you notice there's not even 11049 lbs in weights so wtf are they even talking about",
 				"however, you distinctly remember shaylan gassing himself up after his CS70 midterm",
 				"perhaps the number is modulo something??",
 				"Shaylan's sees you in the corner of his eyes and asks you to spot him",
-				"he's tasked you with setting up the weights correctly while he slams his creatine and pre-workout",
+				"he's tasked you with ADDING THE WEIGHT CORRECTLY while he slams his creatine and pre-workout",
 				"he said he'll tell you the password after but he also mentions that the you'll need to submit the modulo"];
 
 class Textbox extends Component {
@@ -62,7 +62,7 @@ class Textbox extends Component {
 		let ret;
 		
 		if (this.state.index >= 1) {
-			if (this.state.weight == 1000) {
+			if (this.state.weight == 225) {
 				ret = <div>
 						<div> jason lezak's incredible 100m freestyle leg in the 2008 olympics </div>
 						<div id="content">
